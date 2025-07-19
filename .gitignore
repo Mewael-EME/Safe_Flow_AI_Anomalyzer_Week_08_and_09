@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# VSCode settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Data files
+data/
+
+# Logs and outputs
+*.log
+*.out
+*.bak
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# dotenv environment files
+.env
+.env.*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# mypy and other cache files
+.mypy_cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter nbconvert script outputs
+*.nbconvert.ipynb
+
+# Temporary files
+*.tmp
+*.swp

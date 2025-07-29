@@ -4,6 +4,7 @@
 This project aims to build robust ML models to detect fraudulent transactions in e-commerce and banking using transaction features, geolocation, and user behavior.
 
 ## 📁 Folder Structure
+```
 ├── data/
 │ ├── raw/ # Original datasets
 │ ├── interim/ # Cleaned datasets
@@ -18,7 +19,7 @@ This project aims to build robust ML models to detect fraudulent transactions in
 ├── test_pipeline.py # Pipeline test script
 ├── run_pipeline.py # Main pipeline script
 ├── requirements.txt
-└── README.md
+└── README.md ``` 
 
 
 ## 🛠️ How to Run

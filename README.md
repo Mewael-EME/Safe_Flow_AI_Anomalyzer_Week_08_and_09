@@ -20,7 +20,7 @@ This project aims to build robust ML models to detect fraudulent transactions in
 ├── run_pipeline.py # Main pipeline script
 ├── requirements.txt
 └── README.md ``` 
-
+```
 
 ## 🛠️ How to Run
 1. Clone the repo.
@@ -58,12 +58,11 @@ This project aims to build robust ML models to detect fraudulent transactions in
     - notebooks/Task3_Model_Explainability_SHAP.ipynb
 
 ## 💡 Usage
-```bash
 To run the pipeline:
-python run_pipeline.py
+```python run_pipeline.py```
 
 To run the pipeline test:
-python test_pipeline.py
+```python test_pipeline.py```
 
 To visualize model explainability:
-Open notebooks/Task3_Model_Explainability_SHAP.ipynb
+```Open notebooks/Task3_Model_Explainability_SHAP.ipynb```

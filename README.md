@@ -8,28 +8,16 @@ See folder breakdown above.
 
 ## 🛠️ How to Run
 1. Clone the repo.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the pipeline: `python run_pipeline.py`
-4. Explore the results in `reports/`
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the pipeline:
+python run_pipeline.py
 
-## 📊 Datasets Used
-- `Fraud_Data.csv`
-- `creditcard.csv`
-- `IpAddress_to_Country.csv`
+4. Explore the results in reports/
 
-## 📌 Tasks Covered
-- Data Cleaning & Feature Engineering
-- Handling Imbalanced Classes
-- Logistic Regression & Gradient Boosting Models
-- Model Evaluation using AUC-PR, F1
-- SHAP-based Explainability
+📊 Datasets Used
+    Fraud_Data.csv
+    creditcard.csv
+    IpAddress_to_Country.csv
 
-## ✅ Features
-- Cleans missing & duplicate values
-- Merges geo-IP data
-- Creates fraud-relevant features (hour, weekday, user frequency)
-- Includes visuals and insights aligned to fraud behavior
-
-## 💡 Usage
-```bash
-python /test_pipeline.py
